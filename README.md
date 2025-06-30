@@ -1,3 +1,4 @@
+I'm putting out my best what i'm learning. I know my websites are really basic but i'm still learning :D
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

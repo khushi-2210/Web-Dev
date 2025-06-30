@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+</head>
+<script src="js_practice.js"></script>
+<link rel="stylesheet" href="js_practice.css"> 
+
+<body>
+    <h1> DOM Manipulation Application</h1>
+
+    <div class="lab-section">
+        <h2> Dynamic Element creation </h2>
+        <div id="element-playground" class="demo-box">
+            <p>Elements will be created dynamically!</p>
+        </div>
+
+        <div>
+            <select id="elementType">
+                <option value="div"> Div Element</option>
+                <option value="p"> Paragraph </option>
+                <option value="h1"> Heading </option>
+                <option value="button"> Button </option>
+                <option value="img"> Image </option>
+            </select>
+            <input type="text" id="elementContent" placeholder="Element Content">
+            <button onclick="createCustomElement()">Create Element</button>
+            <button onclick="clearPlayground()">Clear All</button>
+        </div>
+    </div>
+
+    <div class="lab-section">
+        <h2>Indian State List</h2>
+        <div class="demo-box">
+            <h3> List </h3>
+            <ul id="state-list" style="list-style-type: none; padding-left: 0;">
+                <li> Maharashtra </li>
+                <li> Karnataka </li>
+                <li> Punjab </li>
+                <li> Bihar </li>
+            </ul>
+        </div>
+
+        <div>
+            <input type="text" id="newState" placeholder="Enter state name">
+            <button onclick="addState()">Add State</button>
+            <button onclick="removeLastState()"> Remove last </button>
+            <button onclick="sortStates()">Sort A-Z</button>
+        </div>
+    </div>
+</body>
+
+</html>
